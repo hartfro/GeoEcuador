@@ -1,0 +1,218 @@
+{
+    "Azuay": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/azuay.txt",
+        "Ciudades": [
+            "Cuenca"
+        ],
+        "Capital": "Cuenca",
+        "Puntos de Interés": ["Parque Nacional Cajas"]
+    },
+    "Bolívar": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/bolivar.txt",
+        "Ciudades": [
+            "Guaranda"
+        ],
+        "Capital": "Guaranda",
+        "Puntos de Interés": ["Carnaval de Guaranda"]
+    },
+    "Cañar": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/canar.txt",
+        "Ciudades": [
+            "Azogues"
+        ],
+        "Capital": "Azogues",
+        "Puntos de Interés": ["Ruinas de Ingapirca"]
+    },
+    "Carchi": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/carchi.txt",
+        "Ciudades": [
+            "Tulcán"
+        ],
+        "Capital": "Tulcán",
+        "Puntos de Interés": ["Cementerio Municipal de Tulcán", "Reserva Bioantropológica Awa"]
+    },
+    "Chimborazo": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/chimborazo.txt",
+        "Ciudades": [
+            "Riobamba"
+        ],
+        "Capital": "Riobamba",
+        "Puntos de Interés": ["Volcán Chimborazo"]
+    },
+    "Cotopaxi": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/cotopaxi.txt",
+        "Ciudades": [
+            "Latacunga"
+        ],
+        "Capital": "Latacunga",
+        "Puntos de Interés": ["Volcán Cotopaxi"]
+    },
+    "El Oro": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/el_oro.txt",
+        "Ciudades": [
+            "Machala"
+        ],
+        "Capital": "Machala",
+        "Puntos de Interés": ["Archipiélago de Jambelí"]
+    },
+    "Esmeraldas": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/esmeraldas.txt",
+        "Ciudades": [
+            "Esmeraldas"
+        ],
+        "Capital": "Esmeraldas",
+        "Puntos de Interés": ["Playa de Tonsupa"]
+    },
+    "Galápagos": {
+        "Región": "Insular",
+        "Descripción": "data/descripciones/provincias/galapagos.txt",
+        "Ciudades": [
+            "Puerto Baquerizo Moreno"
+        ],
+        "Capital": "Puerto Baquerizo Moreno",
+        "Puntos de Interés": ["Bahía Tortuga"]
+    },
+    "Guayas": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/guayas.txt",
+        "Ciudades": [
+            "Guayaquil"
+        ],
+        "Capital": "Guayaquil",
+        "Puntos de Interés": ["Las Peñas", "Malecón 2000"]
+    },
+    "Imbabura": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/imbabura.txt",
+        "Ciudades": [
+            "Ibarra"
+        ],
+        "Capital": "Ibarra",
+        "Puntos de Interés": ["Laguna de Cuicocha"]
+    },
+    "Loja": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/loja.txt",
+        "Ciudades": [
+            "Loja"
+        ],
+        "Capital": "Loja",
+        "Puntos de Interés": ["Parque Nacional Podocarpus"]
+    },
+    "Los Ríos": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/los_rios.txt",
+        "Ciudades": [
+            "Babahoyo"
+        ],
+        "Capital": "Babahoyo",
+        "Puntos de Interés": ["La Casa de Olmedo"]
+    },
+    "Manabí": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/manabi.txt",
+        "Ciudades": [
+            "Portoviejo"
+        ],
+        "Capital": "Portoviejo",
+        "Puntos de Interés": ["Playa de los Frailes"]
+    },
+    "Morona Santiago": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/morona_santiago.txt",
+        "Ciudades": [
+            "Macas"
+        ],
+        "Capital": "Macas",
+        "Puntos de Interés": ["Laguna Negra"]
+    },
+    "Napo": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/napo.txt",
+        "Ciudades": [
+            "Tena"
+        ],
+        "Capital": "Tena",
+        "Puntos de Interés": ["Río Misahuallí"]
+    },
+    "Orellana": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/orellana.txt",
+        "Ciudades": [
+            "Coca"
+        ],
+        "Capital": "Coca",
+        "Puntos de Interés": ["Parque Nacional Yasuní"]
+    },
+    "Pastaza": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/pastaza.txt",
+        "Ciudades": [
+            "Puyo"
+        ],
+        "Capital": "Puyo",
+        "Puntos de Interés": ["Ruta de los Shamanes"]
+    },
+    "Pichincha": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/pichincha.txt",
+        "Ciudades": [
+            "Quito"
+        ],
+        "Capital": "Quito",
+        "Puntos de Interés": ["Centro Histórico de Quito"]
+    },
+    "Santa Elena": {
+        "Región": "Costa",
+        "Descripción": "data/descripciones/provincias/santa_elena.txt",
+        "Ciudades": [
+            "Santa Elena"
+        ],
+        "Capital": "Santa Elena",
+        "Puntos de Interés": ["Punto Rocoso de La Chocolatera"]
+    },
+    "Santo Domingo de los Tsáchilas": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/santo_domingo.txt",
+        "Ciudades": [
+            "Santo Domingo"
+        ],
+        "Capital": "Santo Domingo",
+        "Puntos de Interés": ["Parque Zaracay"]
+    },
+    "Sucumbíos": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/sucumbios.txt",
+        "Ciudades": [
+            "Nueva Loja"
+        ],
+        "Capital": "Nueva Loja",
+        "Puntos de Interés": ["Reserva de Producción Faunística Cuyabeno"]
+    },
+    "Tungurahua": {
+        "Región": "Sierra",
+        "Descripción": "data/descripciones/provincias/tungurahua.txt",
+        "Ciudades": [
+            "Ambato"
+        ],
+        "Capital": "Ambato",
+        "Puntos de Interés": ["Baños de Agua Santa"]
+    },
+    "Zamora Chinchipe": {
+        "Región": "Amazonía",
+        "Descripción": "data/descripciones/provincias/zamora_chinchipe.txt",
+        "Ciudades": [
+            "Zamora"
+        ],
+        "Capital": "Zamora",
+        "Puntos de Interés": ["Centinela del Cóndor"]
+    }
+}

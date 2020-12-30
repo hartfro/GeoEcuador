@@ -2,18 +2,6 @@ import Provincia
 from console import console
 
 
-def mostrar_informacion(provincia):
-    console.clear()
-
-    console.print(f'''
-[bold red]{provincia.nombre}[/]\n
-[green]Región:[/] {provincia.region.nombre}\n
-[green]Capital:[/] {provincia.capital}\n
-[green]Descripción:[/]\n\n{provincia.descripcion}\n 
-[green]Puntos de interés:[/]\n\n[white]{", ".join(provincia.puntos_interes)}
-    ''')
-
-
 def mostrar_menu(provincias):
     nombres_provincias = list(provincias.keys())
 
@@ -25,11 +13,20 @@ def mostrar_menu(provincias):
     print()
     eleccion = 0
 
-    eleccion = int(input(": ")) - 1
-    provincia = nombres_provincias[eleccion]
-    provincia = provincias[provincia]
+    while True:
+        try: 
+            eleccion = int(input(": ")) - 1
 
-    mostrar_informacion(provincia)
+            if not (eleccion >= 0 and eleccion <= len(nombres_provincias)):
+                raise("Elección fuera de límites.")
+
+            provincia = nombres_provincias[eleccion]
+            provincia = provincias[provincia]
+
+            provincia.mostrar_informacion()
+            break
+        except:
+            console.print("Número inválido, intente de nuevo.")
 
 
 if __name__ == "__main__":
