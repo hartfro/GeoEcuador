@@ -1,3 +1,5 @@
+from console import console
+
 class Region():
     def __init__(self, nombre):
         self.nombre = nombre
@@ -12,6 +14,17 @@ class Provincia():
         self.puntos_interes = puntos_interes
         self.bandera = bandera
         self.paisaje = paisaje
+
+    def mostrar_informacion(self):
+        console.clear()
+
+        console.print(f'''
+[bold red]{self.nombre}[/]\n
+[green]Región:[/] {self.region.nombre}\n
+[green]Capital:[/] {self.capital}\n
+[green]Descripción:[/]\n\n{self.descripcion}\n 
+[green]Puntos de interés:[/]\n\n[white]{", ".join(self.puntos_interes)}
+        ''')
 
 
 def leer_descripcion(path):
@@ -66,7 +79,7 @@ def inicializar_provincias():
         capital = lista[3]
         puntos_interes = lista[4]
 
-        provincia = Provincia(nombre, region, descripcion, capital, puntos_interes)
-        provincias[nombre] = provincia
+        self = Provincia(nombre, region, descripcion, capital, puntos_interes)
+        provincias[nombre] = self
 
     return provincias
