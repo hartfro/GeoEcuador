@@ -42,7 +42,7 @@ def leer_descripcion(path):
 
 
 
-def inicializar_provincias():
+def cargar_provincias():
     sierra = Region("Sierra")
     costa = Region("Costa")
     amazonia = Region("Amazonía")

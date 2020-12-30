@@ -31,6 +31,6 @@ def mostrar_menu(provincias):
 
 if __name__ == "__main__":
     console.clear()
-    provincias = Provincia.inicializar_provincias()
+    provincias = Provincia.cargar_provincias()
     
     mostrar_menu(provincias)
