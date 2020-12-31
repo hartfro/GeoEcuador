@@ -1,5 +1,6 @@
 from console import console
 import json
+import os
 
 class Region():
     def __init__(self, nombre):
@@ -34,8 +35,10 @@ class Provincia():
 
 
 def leer_descripcion(path):
+    dirname = os.path.dirname(__file__)
+
     descripcion = ""
-    with open(path, 'r', encoding='utf-8') as file:
+    with open(os.path.join(dirname, "data", path), 'r', encoding='utf-8') as file:
         descripcion = file.read()
 
     return descripcion
@@ -43,6 +46,8 @@ def leer_descripcion(path):
 
 
 def cargar_provincias():
+    dirname = os.path.dirname(__file__)
+
     sierra = Region("Sierra")
     costa = Region("Costa")
     amazonia = Region("Amazonía")
@@ -50,7 +55,7 @@ def cargar_provincias():
 
     json_provincias = None
 
-    with open("data/provincias.json", "r", encoding="utf-8") as json_file:
+    with open(os.path.join(dirname, "data/provincias.json"), "r", encoding="utf-8") as json_file:
         json_provincias = json.load(json_file)
 
     provincias = {}
