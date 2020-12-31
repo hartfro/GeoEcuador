@@ -1,7 +1,7 @@
 {
     "Azuay": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/azuay.txt",
+        "Descripción": "descripciones/provincias/azuay.txt",
         "Ciudades": [
             "Cuenca"
         ],
@@ -10,7 +10,7 @@
     },
     "Bolívar": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/bolivar.txt",
+        "Descripción": "descripciones/provincias/bolivar.txt",
         "Ciudades": [
             "Guaranda"
         ],
@@ -19,7 +19,7 @@
     },
     "Cañar": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/canar.txt",
+        "Descripción": "descripciones/provincias/canar.txt",
         "Ciudades": [
             "Azogues"
         ],
@@ -28,7 +28,7 @@
     },
     "Carchi": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/carchi.txt",
+        "Descripción": "descripciones/provincias/carchi.txt",
         "Ciudades": [
             "Tulcán"
         ],
@@ -37,7 +37,7 @@
     },
     "Chimborazo": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/chimborazo.txt",
+        "Descripción": "descripciones/provincias/chimborazo.txt",
         "Ciudades": [
             "Riobamba"
         ],
@@ -46,7 +46,7 @@
     },
     "Cotopaxi": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/cotopaxi.txt",
+        "Descripción": "descripciones/provincias/cotopaxi.txt",
         "Ciudades": [
             "Latacunga"
         ],
@@ -55,7 +55,7 @@
     },
     "El Oro": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/el_oro.txt",
+        "Descripción": "descripciones/provincias/el_oro.txt",
         "Ciudades": [
             "Machala"
         ],
@@ -64,7 +64,7 @@
     },
     "Esmeraldas": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/esmeraldas.txt",
+        "Descripción": "descripciones/provincias/esmeraldas.txt",
         "Ciudades": [
             "Esmeraldas"
         ],
@@ -73,7 +73,7 @@
     },
     "Galápagos": {
         "Región": "Insular",
-        "Descripción": "data/descripciones/provincias/galapagos.txt",
+        "Descripción": "descripciones/provincias/galapagos.txt",
         "Ciudades": [
             "Puerto Baquerizo Moreno"
         ],
@@ -82,7 +82,7 @@
     },
     "Guayas": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/guayas.txt",
+        "Descripción": "descripciones/provincias/guayas.txt",
         "Ciudades": [
             "Guayaquil"
         ],
@@ -91,7 +91,7 @@
     },
     "Imbabura": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/imbabura.txt",
+        "Descripción": "descripciones/provincias/imbabura.txt",
         "Ciudades": [
             "Ibarra"
         ],
@@ -100,7 +100,7 @@
     },
     "Loja": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/loja.txt",
+        "Descripción": "descripciones/provincias/loja.txt",
         "Ciudades": [
             "Loja"
         ],
@@ -109,7 +109,7 @@
     },
     "Los Ríos": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/los_rios.txt",
+        "Descripción": "descripciones/provincias/los_rios.txt",
         "Ciudades": [
             "Babahoyo"
         ],
@@ -118,7 +118,7 @@
     },
     "Manabí": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/manabi.txt",
+        "Descripción": "descripciones/provincias/manabi.txt",
         "Ciudades": [
             "Portoviejo"
         ],
@@ -127,7 +127,7 @@
     },
     "Morona Santiago": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/morona_santiago.txt",
+        "Descripción": "descripciones/provincias/morona_santiago.txt",
         "Ciudades": [
             "Macas"
         ],
@@ -136,7 +136,7 @@
     },
     "Napo": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/napo.txt",
+        "Descripción": "descripciones/provincias/napo.txt",
         "Ciudades": [
             "Tena"
         ],
@@ -145,7 +145,7 @@
     },
     "Orellana": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/orellana.txt",
+        "Descripción": "descripciones/provincias/orellana.txt",
         "Ciudades": [
             "Coca"
         ],
@@ -154,7 +154,7 @@
     },
     "Pastaza": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/pastaza.txt",
+        "Descripción": "descripciones/provincias/pastaza.txt",
         "Ciudades": [
             "Puyo"
         ],
@@ -163,7 +163,7 @@
     },
     "Pichincha": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/pichincha.txt",
+        "Descripción": "descripciones/provincias/pichincha.txt",
         "Ciudades": [
             "Quito"
         ],
@@ -172,7 +172,7 @@
     },
     "Santa Elena": {
         "Región": "Costa",
-        "Descripción": "data/descripciones/provincias/santa_elena.txt",
+        "Descripción": "descripciones/provincias/santa_elena.txt",
         "Ciudades": [
             "Santa Elena"
         ],
@@ -181,7 +181,7 @@
     },
     "Santo Domingo de los Tsáchilas": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/santo_domingo.txt",
+        "Descripción": "descripciones/provincias/santo_domingo.txt",
         "Ciudades": [
             "Santo Domingo"
         ],
@@ -190,7 +190,7 @@
     },
     "Sucumbíos": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/sucumbios.txt",
+        "Descripción": "descripciones/provincias/sucumbios.txt",
         "Ciudades": [
             "Nueva Loja"
         ],
@@ -199,7 +199,7 @@
     },
     "Tungurahua": {
         "Región": "Sierra",
-        "Descripción": "data/descripciones/provincias/tungurahua.txt",
+        "Descripción": "descripciones/provincias/tungurahua.txt",
         "Ciudades": [
             "Ambato"
         ],
@@ -208,7 +208,7 @@
     },
     "Zamora Chinchipe": {
         "Región": "Amazonía",
-        "Descripción": "data/descripciones/provincias/zamora_chinchipe.txt",
+        "Descripción": "descripciones/provincias/zamora_chinchipe.txt",
         "Ciudades": [
             "Zamora"
         ],
