@@ -1,0 +1,2 @@
+language = "python3"
+run = "python -m pip install -r prototype/requirements.txt && python prototype/main.py"
