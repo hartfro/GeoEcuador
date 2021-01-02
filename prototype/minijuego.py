@@ -2,6 +2,7 @@
 #TODO: Corregir prompt de acabar juego.
 #TODO: Guardar puntaje
 #TODO: Evitar preguntas repetidas.
+#TODO: Integrar al código principal.
 
 # Minijuego de la aplicación GeoEcuador: comprueba tu conocimiento.
 import random
@@ -64,12 +65,11 @@ while True:
 
         random.shuffle(options)
 
-        print("¿Cuál es la capital de", random_province, "?")
-        print("Opciones: ")
-        for option in options:
-            print(option)
+        print("¿Cuál es la capital de", random_province, "?\n")
+        for i, option in enumerate(options):
+            print(f"{i+1}. {option}")
 
-        answer = input("Ingresa tu respuesta: ")
+        answer = input("\nIngresa tu respuesta: ")
         if answer == capital:
             print("¡Muy bien!")
         else:
@@ -129,12 +129,11 @@ while True:
 
         random.shuffle(options)
 
-        print("¿En qué región se encuentra la provincia de", random_province, "?")
-        print("Opciones: ")
-        for option in options:
-            print(option)
+        print("¿En qué región se encuentra la provincia de", random_province, "?\n")
+        for i, option in enumerate(options):
+            print(f"{i+1}. {option}")
 
-        answer = input("Ingresa tu respuesta: ")
+        answer = input("\nIngresa tu respuesta: ")
         if answer == region:
             print("¡Muy bien!")
         else:
@@ -194,16 +193,15 @@ while True:
 
         random.shuffle(options)
 
-        print("¿Cuál de los siguientes es un punto de interés o un evento representativo de la provincia de", random_province, "?")
-        print("Opciones: ")
-        for option in options:
-            print(option)
+        print("¿Cuál de los siguientes es un punto de interés o un evento representativo de la provincia de", random_province, "?\n")
+        for i, option in enumerate(options):
+            print(f"{i+1}. {option}")
 
-        answer = input("Ingresa tu respuesta: ")
+        answer = input("\nIngresa tu respuesta: ")
         if answer == puntoint:
-            print("¡Muy bien!")
+            print("\n¡Muy bien!")
         else:
-            print("Lo siento, es incorrecto :(")
+            print("\nLo siento, es incorrecto :(")
 
         answer = input("¿Seguir jungando? Si ya no quieres jugar, escribe no: ")
         if answer == "no":
