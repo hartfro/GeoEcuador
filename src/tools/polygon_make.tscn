@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://assets/ecuador_map/ecuador_map.png" type="Texture" id=1]
-[ext_resource path="res://provincia/polygons/guayas.tscn" type="PackedScene" id=2]
+[ext_resource path="res://provincia/polygons/los_rios.tscn" type="PackedScene" id=2]
 
 [node name="Node2D" type="Node2D"]
 
@@ -13,6 +13,6 @@ __meta__ = {
 }
 
 [node name="Node2D" type="Node2D" parent="."]
-position = Vector2( 106.5, 69.5 )
+position = Vector2( 113, 56.5 )
 
 [node name="CollisionPolygon2D" parent="Node2D" instance=ExtResource( 2 )]
