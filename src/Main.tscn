@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://assets/ecuador_map/ecuador_map.png" type="Texture" id=1]
 [ext_resource path="res://provincia/provincia.tscn" type="PackedScene" id=2]
@@ -25,6 +25,7 @@
 [ext_resource path="res://provincia/polygons/amazonia/morona_santiago.tscn" type="PackedScene" id=23]
 [ext_resource path="res://provincia/polygons/amazonia/pastaza.tscn" type="PackedScene" id=24]
 [ext_resource path="res://provincia/polygons/amazonia/zamora.tscn" type="PackedScene" id=25]
+[ext_resource path="res://provincia/polygons/insular/galapagos.tscn" type="PackedScene" id=26]
 
 [node name="Main" type="Node2D"]
 
@@ -129,6 +130,10 @@ position = Vector2( -6, 43 )
 Polygon = ExtResource( 22 )
 
 [node name="Amazonia" type="Node2D" parent="ecuador_ map/Provincias"]
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
 
 [node name="Sucumbios" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 52, -32.5 )
@@ -156,3 +161,10 @@ Polygon = ExtResource( 23 )
 position = Vector2( 9.5, 45 )
 province_name = "Zamora Chinchipe"
 Polygon = ExtResource( 25 )
+
+[node name="Insular" type="Node2D" parent="ecuador_ map/Provincias"]
+
+[node name="Galapagos" parent="ecuador_ map/Provincias/Insular" instance=ExtResource( 2 )]
+position = Vector2( -62, -35 )
+province_name = "Galápagos"
+Polygon = ExtResource( 26 )
