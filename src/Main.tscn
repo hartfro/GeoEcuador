@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://assets/ecuador_map/ecuador_map.png" type="Texture" id=1]
 [ext_resource path="res://provincia/provincia.tscn" type="PackedScene" id=2]
@@ -19,6 +19,12 @@
 [ext_resource path="res://provincia/polygons/sierra/chimborazo.tscn" type="PackedScene" id=17]
 [ext_resource path="res://provincia/polygons/sierra/canar.tscn" type="PackedScene" id=18]
 [ext_resource path="res://provincia/polygons/sierra/azuay.tscn" type="PackedScene" id=19]
+[ext_resource path="res://provincia/polygons/amazonia/orellana.tscn" type="PackedScene" id=20]
+[ext_resource path="res://provincia/polygons/amazonia/napo.tscn" type="PackedScene" id=21]
+[ext_resource path="res://provincia/polygons/sierra/loja.tscn" type="PackedScene" id=22]
+[ext_resource path="res://provincia/polygons/amazonia/morona_santiago.tscn" type="PackedScene" id=23]
+[ext_resource path="res://provincia/polygons/amazonia/pastaza.tscn" type="PackedScene" id=24]
+[ext_resource path="res://provincia/polygons/amazonia/zamora.tscn" type="PackedScene" id=25]
 
 [node name="Main" type="Node2D"]
 
@@ -120,6 +126,7 @@ Polygon = ExtResource( 19 )
 
 [node name="Loja" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
 position = Vector2( -6, 43 )
+Polygon = ExtResource( 22 )
 
 [node name="Amazonia" type="Node2D" parent="ecuador_ map/Provincias"]
 
@@ -127,3 +134,25 @@ position = Vector2( -6, 43 )
 position = Vector2( 52, -32.5 )
 province_name = "Sucumbíos"
 Polygon = ExtResource( 6 )
+
+[node name="Orellana" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+position = Vector2( 56.5, -17.5 )
+Polygon = ExtResource( 20 )
+
+[node name="Napo" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+position = Vector2( 31.5, -22 )
+Polygon = ExtResource( 21 )
+
+[node name="Pastaza" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+position = Vector2( 46.5, 1 )
+Polygon = ExtResource( 24 )
+
+[node name="MoronaSantiago" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+position = Vector2( 30, 16.5 )
+province_name = "Morona Santiago"
+Polygon = ExtResource( 23 )
+
+[node name="Zamora" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+position = Vector2( 9.5, 45 )
+province_name = "Zamora Chinchipe"
+Polygon = ExtResource( 25 )
