@@ -37,139 +37,139 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Provincias" type="Node2D" parent="ecuador_ map"]
+[node name="Regiones" type="Node2D" parent="ecuador_ map"]
 __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Costa" type="Node2D" parent="ecuador_ map/Provincias"]
+[node name="Costa" type="Node2D" parent="ecuador_ map/Regiones"]
 __meta__ = {
 "_edit_group_": true,
 "_edit_lock_": true
 }
 
-[node name="Esmeraldas" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="Esmeraldas" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( 3.5, -46.5 )
 Polygon = ExtResource( 3 )
 
-[node name="Manabi" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="Manabi" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( -13.5, -19 )
 province_name = "Manabí"
 Polygon = ExtResource( 7 )
 
-[node name="SantaElena" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="SantaElena" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( -21, 5.5 )
 province_name = "Santa Elena"
 Polygon = ExtResource( 9 )
 
-[node name="Guayas" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="Guayas" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( -7.5, 5.5 )
 Polygon = ExtResource( 10 )
 
-[node name="ElOro" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="ElOro" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( -7, 33 )
 province_name = "El Oro"
 Polygon = ExtResource( 11 )
 
-[node name="LosRios" parent="ecuador_ map/Provincias/Costa" instance=ExtResource( 2 )]
+[node name="LosRios" parent="ecuador_ map/Regiones/Costa" instance=ExtResource( 2 )]
 position = Vector2( -1, -7.5 )
 province_name = "Los Ríos"
 Polygon = ExtResource( 12 )
 
-[node name="Sierra" type="Node2D" parent="ecuador_ map/Provincias"]
+[node name="Sierra" type="Node2D" parent="ecuador_ map/Regiones"]
 __meta__ = {
 "_edit_group_": true,
 "_edit_lock_": true
 }
 
-[node name="Carchi" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Carchi" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 25, -47 )
 Polygon = ExtResource( 4 )
 
-[node name="SantoDomingo" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="SantoDomingo" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 5, -28 )
 province_name = "Santo Domingo de los Tsáchilas"
 Polygon = ExtResource( 8 )
 
-[node name="Imbabura" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Imbabura" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 19, -41.5 )
 Polygon = ExtResource( 5 )
 
-[node name="Pichincha" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Pichincha" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 16, -29 )
 Polygon = ExtResource( 13 )
 
-[node name="Cotopaxi" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Cotopaxi" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 11, -16.5 )
 Polygon = ExtResource( 14 )
 
-[node name="Tungurahua" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Tungurahua" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 17, -8 )
 Polygon = ExtResource( 15 )
 
-[node name="Bolivar" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Bolivar" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 7, -1.5 )
 province_name = "Bolívar"
 Polygon = ExtResource( 16 )
 
-[node name="Chimborazo" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Chimborazo" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 13, 4.5 )
 Polygon = ExtResource( 17 )
 
-[node name="Canar" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Canar" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 9.5, 14.5 )
 province_name = "Cañar"
 Polygon = ExtResource( 18 )
 
-[node name="Azuay" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Azuay" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( 7, 25 )
 Polygon = ExtResource( 19 )
 
-[node name="Loja" parent="ecuador_ map/Provincias/Sierra" instance=ExtResource( 2 )]
+[node name="Loja" parent="ecuador_ map/Regiones/Sierra" instance=ExtResource( 2 )]
 position = Vector2( -6, 43 )
 Polygon = ExtResource( 22 )
 
-[node name="Amazonia" type="Node2D" parent="ecuador_ map/Provincias"]
+[node name="Amazonia" type="Node2D" parent="ecuador_ map/Regiones"]
 __meta__ = {
 "_edit_group_": true,
 "_edit_lock_": true
 }
 
-[node name="Sucumbios" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="Sucumbios" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 52, -32.5 )
 province_name = "Sucumbíos"
 Polygon = ExtResource( 6 )
 
-[node name="Orellana" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="Orellana" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 56.5, -17.5 )
 Polygon = ExtResource( 20 )
 
-[node name="Napo" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="Napo" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 31.5, -22 )
 Polygon = ExtResource( 21 )
 
-[node name="Pastaza" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="Pastaza" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 46.5, 1 )
 Polygon = ExtResource( 24 )
 
-[node name="MoronaSantiago" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="MoronaSantiago" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 30, 16.5 )
 province_name = "Morona Santiago"
 Polygon = ExtResource( 23 )
 
-[node name="Zamora" parent="ecuador_ map/Provincias/Amazonia" instance=ExtResource( 2 )]
+[node name="Zamora" parent="ecuador_ map/Regiones/Amazonia" instance=ExtResource( 2 )]
 position = Vector2( 9.5, 45 )
 province_name = "Zamora Chinchipe"
 Polygon = ExtResource( 25 )
 
-[node name="Insular" type="Node2D" parent="ecuador_ map/Provincias"]
+[node name="Insular" type="Node2D" parent="ecuador_ map/Regiones"]
 
-[node name="Galapagos" parent="ecuador_ map/Provincias/Insular" instance=ExtResource( 2 )]
+[node name="Galapagos" parent="ecuador_ map/Regiones/Insular" instance=ExtResource( 2 )]
 position = Vector2( -62, -35 )
 province_name = "Galápagos"
 Polygon = ExtResource( 26 )
 
-[node name="Label" type="Label" parent="."]
+[node name="InfoLabel" type="Label" parent="."]
 margin_right = 40.0
 margin_bottom = 14.0
 __meta__ = {
