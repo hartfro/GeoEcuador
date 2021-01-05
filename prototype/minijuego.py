@@ -185,7 +185,7 @@ def iniciar_minijuego():
         jugar_de_nuevo = ""
         while True:
             try:
-                jugar_de_nuevo = input("\n¿Seguir jungando? (s/n): ").lower()
+                jugar_de_nuevo = input("\n¿Seguir jugando? (s/n): ").lower()
 
                 if jugar_de_nuevo == "s":
                     print("\n")
