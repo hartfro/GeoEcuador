@@ -7,7 +7,7 @@ from minijuego import iniciar_minijuego
 
 def mostrar_menu_principal(provincias):
     # Título
-    console.print("[bold redred]GeoEcuador", justify="center")
+    console.print("[bold red]GeoEcuador", justify="center")
 
     # Lista de opciones
     opciones = {
