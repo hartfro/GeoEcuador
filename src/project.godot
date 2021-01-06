@@ -8,9 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "Provincia",
+"language": "GDScript",
+"path": "res://provincia/provincia.gd"
+}, {
+"base": "Node2D",
+"class": "Region",
+"language": "GDScript",
+"path": "res://region/region.gd"
+} ]
 _global_script_class_icons={
-
+"Provincia": "",
+"Region": ""
 }
 
 [application]
