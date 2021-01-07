@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://assets/ecuador_map/ecuador_map.png" type="Texture" id=1]
 [ext_resource path="res://provincia/provincia.tscn" type="PackedScene" id=2]
@@ -27,6 +27,7 @@
 [ext_resource path="res://provincia/polygons/amazonia/zamora.tscn" type="PackedScene" id=25]
 [ext_resource path="res://provincia/polygons/insular/galapagos.tscn" type="PackedScene" id=26]
 [ext_resource path="res://region/region.tscn" type="PackedScene" id=27]
+[ext_resource path="res://assets/fonts/joystix/joystix.tres" type="DynamicFont" id=28]
 
 [node name="Ecuador" type="Node2D"]
 
@@ -167,6 +168,9 @@ margin_left = 12.0
 margin_top = 135.0
 margin_right = 188.0
 margin_bottom = 282.0
+custom_fonts/font = ExtResource( 28 )
+align = 1
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
